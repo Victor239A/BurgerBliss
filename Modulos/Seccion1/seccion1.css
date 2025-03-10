@@ -1,47 +1,53 @@
+.seccion1 {
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+
+}
+
 .texto1 {
-  
-    font-family: "Roboto", sans-serif;
-    font-size: medium;
-    color:rgb(51, 75, 97);
-   
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #486284;
 
 }
 
-
-.texto2 {
-    font-family: "Roboto", sans-serif;
-    font-size: xx-large;
-    color:rgb(51, 75, 97);
-    
+.titulo {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #486284;
 }
-   
 
 .description {
-    font-family: "Roboto", sans-serif;
-    font-size: large;
-    color:rgb(161, 161, 161);
-   
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8CA2C0;
+    
 
 }
 
 .btn1 {
-    
-width: 400px;
-border: 1px solid rgb(51, 75, 97);
-border-radius: 30px;
-padding: 20px;
-margin-top: 50px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 20px;
 
-font-size: 16px;
-color: rgb(51, 75, 97);
+    font-size: 16px;
+    color: #486284;
 
-display: flex;
-align-items: center;
-justify-content: center;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 20px;
 }
 
 
-   
+.space {
 
+height: 25px;
+
+
+}
